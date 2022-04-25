@@ -1,0 +1,94 @@
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  width: 1440px;
+  height: 768px;
+  color: hsl(238, 29%, 16%);
+  font-family: Kumbh Sans;
+}
+
+hr {
+  border-color: hsl(240, 5%, 91%);
+}
+
+h1 {
+  /* font-size: 1.5rem; */
+}
+
+.panelTitle:Hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.panelTitle {
+  font-size: 15px;
+cursor: pointer;
+}
+
+.panelText {
+  margin: 10px 0;
+  line-height: 1.2rem;
+  font-size: 12px;
+  font-weight: 400;
+cursor: pointer;
+}
+
+
+.panelTitleActive {
+font-weight: 700;
+
+}
+
+
+
+.panelTextHidden {
+  display: none;
+}
+
+.panelArrow {
+  float: right;
+  margin-top: 7px;
+
+
+
+}
+
+.arrowActive {
+  transform: rotate(180deg);
+}
+
+#divMain {
+  background-color: white;
+  margin: 0 auto;
+  width: 920px;
+  height: 510px;
+  border-radius: 50px;
+  margin-top: 120px;
+}
+
+
+#accordionMaster {
+  width: 335px;
+  position: relative;
+  top: 85px;
+  left: 500px;
+}
+
+
+/*  images  */
+
+#womanImg {
+  position: absolute;
+  left: 200px;
+  top: 180px;
+}
+
+#boxImg {
+  position: absolute;
+  left: 180px;
+  top: 280px;
+}
+
+#shadowImg {
+  position: absolute;
+  left: -300px;
+  top: -100px;
+}

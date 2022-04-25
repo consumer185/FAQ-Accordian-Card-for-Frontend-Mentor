@@ -1,40 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+  <title>FAQ Accordion Card</title>
 </head>
+
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+<div id="divMain">
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+<img id="womanImg" src="images/illustration-woman-online-desktop.svg" alt="">
+<img id="boxImg" src="images/illustration-box-desktop.svg" alt="">
+<img id="shadowImg" src="images/bg-pattern-desktop.svg" alt="">
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+  <div id="accordionMaster">
+<h1>FAQ</h1>
+    <div class="panelTitle">How many team members can I invite?
+      <img src="images/icon-arrow-down.svg" alt="arrow" class="panelArrow">
+      <div class="panelText panelTextHidden">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</div>
+    </div>
+<hr>
+    <div class="panelTitle">What is the maximum file upload size?
+      <img src="images/icon-arrow-down.svg" alt="arrow" class="panelArrow">
+      <div class="panelText panelTextHidden">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+    </div>
+<hr>
+<div class="panelTitle">How do I reset my password?
+  <img src="images/icon-arrow-down.svg" alt="arrow" class="panelArrow">
+  <div class="panelText panelTextHidden">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</div>
+</div>
+<hr>
+<div class="panelTitle">Can I cancel my subscription?
+  <img src="images/icon-arrow-down.svg" alt="arrow" class="panelArrow">
+  <div class="panelText panelTextHidden">Yes! Send us a message and we’ll process your request no questions asked.</div>
+</div>
+<hr>
+<div class="panelTitle">Do you provide additional support?
+  <img src="images/icon-arrow-down.svg" alt="arrow" class="panelArrow">
+  <div class="panelText panelTextHidden">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
+</div>
+<hr>
+</div>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+
+
+
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
 </html>
